@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0180C6BA1A6E03E60031E686 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0180C6B91A6E03E60031E686 /* movie_quote.mp3 */; };
+		A768737F1A70CB47002D900C /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A768737E1A70CB47002D900C /* RecordedAudio.swift */; };
 		EC7D96A31A698CE800F9FE33 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D96A21A698CE800F9FE33 /* PlaySoundsViewController.swift */; };
 		ECB907871A68936C0063A214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB907861A68936C0063A214 /* AppDelegate.swift */; };
 		ECB907891A68936C0063A214 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB907881A68936C0063A214 /* RecordSoundsViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0180C6B91A6E03E60031E686 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		A768737E1A70CB47002D900C /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		EC7D96A21A698CE800F9FE33 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		ECB907811A68936C0063A214 /* Udacity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udacity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB907851A68936C0063A214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				ECB907861A68936C0063A214 /* AppDelegate.swift */,
 				ECB907881A68936C0063A214 /* RecordSoundsViewController.swift */,
+				A768737E1A70CB47002D900C /* RecordedAudio.swift */,
 				ECB9078A1A68936C0063A214 /* Main.storyboard */,
 				EC7D96A21A698CE800F9FE33 /* PlaySoundsViewController.swift */,
 				ECB9078D1A68936C0063A214 /* Images.xcassets */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A768737F1A70CB47002D900C /* RecordedAudio.swift in Sources */,
 				EC7D96A31A698CE800F9FE33 /* PlaySoundsViewController.swift in Sources */,
 				ECB907891A68936C0063A214 /* RecordSoundsViewController.swift in Sources */,
 				ECB907871A68936C0063A214 /* AppDelegate.swift in Sources */,

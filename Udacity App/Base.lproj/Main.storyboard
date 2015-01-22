@@ -115,7 +115,6 @@
                                 </state>
                                 <connections>
                                     <action selector="stopbutton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mKB-ol-nQN"/>
-                                    <segue destination="qtC-R1-dJB" kind="show" id="qLM-NI-SGL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slh-wN-P3o">
@@ -174,6 +173,7 @@
                         <outlet property="recordbutton" destination="Slh-wN-P3o" id="bIQ-q9-aIh"/>
                         <outlet property="recordingprogress" destination="mNs-8N-PL5" id="Ofa-bo-uMa"/>
                         <outlet property="stopbutton" destination="MLl-bE-o6h" id="q62-Zb-FLp"/>
+                        <segue destination="qtC-R1-dJB" kind="show" identifier="stopRecording" id="kec-Ja-Yq6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
