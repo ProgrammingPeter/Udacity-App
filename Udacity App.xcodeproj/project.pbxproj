@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0180C6BA1A6E03E60031E686 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0180C6B91A6E03E60031E686 /* movie_quote.mp3 */; };
+		EC7D96A31A698CE800F9FE33 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D96A21A698CE800F9FE33 /* PlaySoundsViewController.swift */; };
+		ECB907871A68936C0063A214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB907861A68936C0063A214 /* AppDelegate.swift */; };
+		ECB907891A68936C0063A214 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB907881A68936C0063A214 /* RecordSoundsViewController.swift */; };
+		ECB9078C1A68936C0063A214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB9078A1A68936C0063A214 /* Main.storyboard */; };
+		ECB9078E1A68936C0063A214 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB9078D1A68936C0063A214 /* Images.xcassets */; };
+		ECB907911A68936C0063A214 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB9078F1A68936C0063A214 /* LaunchScreen.xib */; };
+		ECB9079D1A68936D0063A214 /* Udacity_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9079C1A68936D0063A214 /* Udacity_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB907971A68936D0063A214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB907791A68936C0063A214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB907801A68936C0063A214;
+			remoteInfo = "Udacity App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0180C6B91A6E03E60031E686 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		EC7D96A21A698CE800F9FE33 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		ECB907811A68936C0063A214 /* Udacity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udacity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB907851A68936C0063A214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB907861A68936C0063A214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB907881A68936C0063A214 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		ECB9078B1A68936C0063A214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB9078D1A68936C0063A214 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECB907901A68936C0063A214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECB907961A68936D0063A214 /* Udacity AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Udacity AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB9079B1A68936D0063A214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB9079C1A68936D0063A214 /* Udacity_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udacity_AppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB9077E1A68936C0063A214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB907931A68936D0063A214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB907781A68936C0063A214 = {
+			isa = PBXGroup;
+			children = (
+				ECB907831A68936C0063A214 /* Udacity App */,
+				ECB907991A68936D0063A214 /* Udacity AppTests */,
+				ECB907821A68936C0063A214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB907821A68936C0063A214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB907811A68936C0063A214 /* Udacity App.app */,
+				ECB907961A68936D0063A214 /* Udacity AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB907831A68936C0063A214 /* Udacity App */ = {
+			isa = PBXGroup;
+			children = (
+				ECB907861A68936C0063A214 /* AppDelegate.swift */,
+				ECB907881A68936C0063A214 /* RecordSoundsViewController.swift */,
+				ECB9078A1A68936C0063A214 /* Main.storyboard */,
+				EC7D96A21A698CE800F9FE33 /* PlaySoundsViewController.swift */,
+				ECB9078D1A68936C0063A214 /* Images.xcassets */,
+				ECB9078F1A68936C0063A214 /* LaunchScreen.xib */,
+				ECB907841A68936C0063A214 /* Supporting Files */,
+			);
+			path = "Udacity App";
+			sourceTree = "<group>";
+		};
+		ECB907841A68936C0063A214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0180C6B91A6E03E60031E686 /* movie_quote.mp3 */,
+				ECB907851A68936C0063A214 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB907991A68936D0063A214 /* Udacity AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9079C1A68936D0063A214 /* Udacity_AppTests.swift */,
+				ECB9079A1A68936D0063A214 /* Supporting Files */,
+			);
+			path = "Udacity AppTests";
+			sourceTree = "<group>";
+		};
+		ECB9079A1A68936D0063A214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9079B1A68936D0063A214 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB907801A68936C0063A214 /* Udacity App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB907A01A68936D0063A214 /* Build configuration list for PBXNativeTarget "Udacity App" */;
+			buildPhases = (
+				ECB9077D1A68936C0063A214 /* Sources */,
+				ECB9077E1A68936C0063A214 /* Frameworks */,
+				ECB9077F1A68936C0063A214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udacity App";
+			productName = "Udacity App";
+			productReference = ECB907811A68936C0063A214 /* Udacity App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB907951A68936D0063A214 /* Udacity AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB907A31A68936D0063A214 /* Build configuration list for PBXNativeTarget "Udacity AppTests" */;
+			buildPhases = (
+				ECB907921A68936D0063A214 /* Sources */,
+				ECB907931A68936D0063A214 /* Frameworks */,
+				ECB907941A68936D0063A214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB907981A68936D0063A214 /* PBXTargetDependency */,
+			);
+			name = "Udacity AppTests";
+			productName = "Udacity AppTests";
+			productReference = ECB907961A68936D0063A214 /* Udacity AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB907791A68936C0063A214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yosemite Retail";
+				TargetAttributes = {
+					ECB907801A68936C0063A214 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					ECB907951A68936D0063A214 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = ECB907801A68936C0063A214;
+					};
+				};
+			};
+			buildConfigurationList = ECB9077C1A68936C0063A214 /* Build configuration list for PBXProject "Udacity App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB907781A68936C0063A214;
+			productRefGroup = ECB907821A68936C0063A214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB907801A68936C0063A214 /* Udacity App */,
+				ECB907951A68936D0063A214 /* Udacity AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB9077F1A68936C0063A214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB9078C1A68936C0063A214 /* Main.storyboard in Resources */,
+				ECB907911A68936C0063A214 /* LaunchScreen.xib in Resources */,
+				0180C6BA1A6E03E60031E686 /* movie_quote.mp3 in Resources */,
+				ECB9078E1A68936C0063A214 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB907941A68936D0063A214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB9077D1A68936C0063A214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7D96A31A698CE800F9FE33 /* PlaySoundsViewController.swift in Sources */,
+				ECB907891A68936C0063A214 /* RecordSoundsViewController.swift in Sources */,
+				ECB907871A68936C0063A214 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB907921A68936D0063A214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB9079D1A68936D0063A214 /* Udacity_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB907981A68936D0063A214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB907801A68936C0063A214 /* Udacity App */;
+			targetProxy = ECB907971A68936D0063A214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB9078A1A68936C0063A214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB9078B1A68936C0063A214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB9078F1A68936C0063A214 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB907901A68936C0063A214 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB9079E1A68936D0063A214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB9079F1A68936D0063A214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB907A11A68936D0063A214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udacity App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECB907A21A68936D0063A214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udacity App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECB907A41A68936D0063A214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Udacity AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udacity App.app/Udacity App";
+			};
+			name = Debug;
+		};
+		ECB907A51A68936D0063A214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Udacity AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udacity App.app/Udacity App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB9077C1A68936C0063A214 /* Build configuration list for PBXProject "Udacity App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB9079E1A68936D0063A214 /* Debug */,
+				ECB9079F1A68936D0063A214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB907A01A68936D0063A214 /* Build configuration list for PBXNativeTarget "Udacity App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB907A11A68936D0063A214 /* Debug */,
+				ECB907A21A68936D0063A214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB907A31A68936D0063A214 /* Build configuration list for PBXNativeTarget "Udacity AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB907A41A68936D0063A214 /* Debug */,
+				ECB907A51A68936D0063A214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB907791A68936C0063A214 /* Project object */;
+}
